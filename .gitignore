@@ -46,6 +46,10 @@
 # track readme.md in the root (i.e. do NOT ignore it)
 !readme.md
 
+# config related
+!.htaccess
+!.env.dist
+
 # ignore all files that start with ~
 ~*
 
