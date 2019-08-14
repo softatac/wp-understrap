@@ -8,3 +8,10 @@ mv latest/* ./
 ```
 2. `composer install -o`
 3. Copy `.env.dist` to `.env` and edit accordingly
+
+
+# Deployment
+
+
+# Theme
+Uses [Understrap child theme](https://github.com/understrap/understrap-child)
