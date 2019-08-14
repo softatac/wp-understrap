@@ -14,4 +14,17 @@ mv latest/* ./
 
 
 # Theme
-Uses [Understrap child theme](https://github.com/understrap/understrap-child)
+Uses [Understrap](https://understrap.github.io/)
+
+## Development
+Install npm: `https://www.npmjs.com/get-npm`
+
+Install gulp: `npm install --global gulp-cli`
+
+Setup for development (from understrap website):
+```
+cd wp-content/themes/understrap-child
+npm install
+gulp copy-assets
+gulp watch
+```
