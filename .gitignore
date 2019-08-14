@@ -49,6 +49,8 @@
 # config related
 !.htaccess
 !.env.dist
+!composer.json
+!wp-config.php
 
 # ignore all files that start with ~
 ~*

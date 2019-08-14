@@ -4,8 +4,8 @@
 ```sh
 wget https://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
-rm -rf latest/wp-content
-mv latest/* ./
+rm -rf wordpress/wp-content
+mv wordpress/* ./
 ```
 3. Install composer dependencies `composer install -o`
 4. Copy `.env.dist` to `.env` and edit accordingly
