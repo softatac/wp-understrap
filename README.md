@@ -7,7 +7,7 @@ tar -xzvf latest.tar.gz
 rm -rf latest/wp-content
 mv latest/* ./
 ```
-3. `composer install -o`
+3. Install composer dependencies `composer install -o`
 4. Copy `.env.dist` to `.env` and edit accordingly
 
 
